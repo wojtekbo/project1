@@ -1,5 +1,5 @@
 autoprefixer-cli ma czytać z pliku style.css i zapisywać wynik do pliku style.prefixed.css (możesz przetestować działanie Autoprefixera np. wpisując w pliku style.css regułę z display: flex):
-node_modules/.bin/autoprefixer-cli -o style.prefixed.css style.css
+node_modules/.bin/autoprefixer-cli -o css/style.prefixed.css css/style.css
 
 
 html-validate ma wyświetlać listę błędów we wszystkich plikach .html:
